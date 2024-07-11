@@ -1,6 +1,5 @@
 FROM python:3.12.4
-COPY requirements.txt /src/requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install poetry
 COPY . /src
 WORKDIR /src
 RUN poetry install
