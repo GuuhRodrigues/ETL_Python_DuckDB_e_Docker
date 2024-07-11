@@ -8,6 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 streamlit = "^1.36.0"
+gdown = "^5.2.0"
+duckdb = "^1.0.0"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.31"
 
 
 [build-system]
