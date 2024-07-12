@@ -1,1 +1,7 @@
 streamlit
+duckdb
+gdown
+python-dotenv
+psycopg2-binary
+sqlalchemy
+pandas
