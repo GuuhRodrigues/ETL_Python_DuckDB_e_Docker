@@ -65,7 +65,7 @@ def salvar_no_postgres(df_duckdb, tabela):
     df_duckdb.to_sql(tabela, con=engine, if_exists='append', index=False, schema="outros")
 
 if __name__ == "__main__":
-    url_pasta = 'https://drive.google.com/drive/folders/15OWjNuP0xVsZpiXXK7bQzpiQGNwxQi2n?'
+    url_pasta = 's'
     diretorio_local = './pasta_gdown'
 
     # baixar_pasta_google_drive(url_pasta, diretorio_local)

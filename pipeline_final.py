@@ -57,8 +57,6 @@ def ler_arquivo(caminho_do_arquivo, tipo):
 def transformar(df):
     # Executa a consulta SQL que inclui a nova coluna, operando sobre a tabela virtual
     df_transformado = duckdb.sql("SELECT *, quantidade * valor AS total_vendas FROM df").df()
-    # Remove o registro da tabela virtual para limpeza
-    print(df_transformado)
     return df_transformado
 
 def salvar_no_postgres(df, tabela):
